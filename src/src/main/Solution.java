@@ -1,17 +1,18 @@
 package src.main;
 
+import guoqing.datastruct.TreeNode;
+import leetcode1600.Leetcode1636;
 import leetcode200.Leetcode211;
+import leetcode300.Leetcode337;
 
 public class Solution {
 
 	public static void main(String[] args) {
+
 		// TODO Auto-generated method stub
-		Leetcode211 solution = new Leetcode211();
-		solution.addWord("bad");
-		solution.addWord("dad");
-		solution.addWord("mad");
-		solution.search(".a.");
-		System.out.println(solution.search(".a."));
+		Leetcode1636 solution = new Leetcode1636();
+		int[] nums = {1,1,2,2,2,3};
+		System.out.println(solution.frequencySort(nums));
 	}
 
 }
